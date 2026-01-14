@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "starters/angular/basic/dist/firebase-app-hosting-angular",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
