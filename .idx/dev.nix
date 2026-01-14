@@ -6,11 +6,11 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    # pkgs.go
-    # pkgs.python311
-    # pkgs.python311Packages.pip
-    # pkgs.nodejs_20
-    # pkgs.nodePackages.nodemon
+    pkgs.nodejs_20
+    pkgs.nodePackages.angular-cli
+    pkgs.nailgun
+    pkgs.graphicsmagick-imagemagick-compat
+    pkgs.nodePackages.angular-language-server
   ];
 
   # Sets environment variables in the workspace
